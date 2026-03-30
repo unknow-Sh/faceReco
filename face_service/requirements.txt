@@ -1,0 +1,8 @@
+face_recognition
+fastapi
+uvicorn[standard]
+pymongo
+Pillow
+numpy
+python-multipart
+httpx
