@@ -44,7 +44,7 @@ export default function Auth({ mode = 'login' }) {
                         <div className="logo-icon"><Camera size={28} /></div>
                         <span>FaceSnap</span>
                     </div>
-                    <h2>Find your moment<br />in every frame.</h2>
+                    <h2>Find your moment<br />in <span>every frame.</span></h2>
                     <p>The AI-powered platform that helps photographers deliver personalized photo galleries to every guest — automatically.</p>
                     <div className="auth-stats">
                         <div className="stat"><span className="stat-num">2000+</span><span>Photos sorted per event</span></div>

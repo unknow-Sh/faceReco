@@ -22,10 +22,18 @@ function App() {
       <Router>
         <div className="app">
           <Toaster position="top-center" toastOptions={{
-            style: { background: '#16161f', color: '#f0f0f5', border: '1px solid rgba(255,255,255,0.1)' }
+            style: {
+              background: '#0c0c22',
+              color: '#f1f5f9',
+              border: '1px solid rgba(99, 102, 241, 0.25)',
+              borderRadius: '12px',
+              boxShadow: '0 20px 60px rgba(0,0,0,0.6)',
+              fontFamily: 'Inter, sans-serif',
+              fontSize: '0.9rem',
+            }
           }} />
           <Navbar />
-          <main style={{ paddingTop: '64px' }}>
+          <main style={{ paddingTop: '66px' }}>
             <Routes>
               {/* Public Routes */}
               <Route path="/" element={<Landing />} />
